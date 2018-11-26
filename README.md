@@ -2,7 +2,7 @@
  
 ## GIF 演示
 
-### 点击选择搜索目标网站
+### Alt + s 呼出窗口,点击选择搜索目标网站
 ![1.gif](http://cdn.wadejs.cn/wsearch_p1.gif)
 ### 直接回车相当于点击第一个按钮
 ![2.gif](http://cdn.wadejs.cn/wsearch_p2.gif)
@@ -18,6 +18,9 @@
 ![7.gif](http://cdn.wadejs.cn/wsearch_p7.gif)
 ### 拖动调整位置
 ![8.gif](http://cdn.wadejs.cn/wsearch_p8.gif)
+
+可以下载demo.zip使用
+
 
 ## To Use
  
