@@ -19,7 +19,7 @@
 ### 拖动调整位置
 ![8.gif](http://cdn.wadejs.cn/wsearch_p8.gif)
 
-可以下载demo.zip使用
+可以下载[demo.zip](https://raw.githubusercontent.com/wadejs/W-SEARCH/master/demo.zip)使用
 
 
 ## To Use
