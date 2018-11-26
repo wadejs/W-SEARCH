@@ -1,0 +1,47 @@
+{
+  "name": "W-SEARCH",
+  "version": "1.0.0",
+  "description": "A quickly search application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "wadejs",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.7",
+    "electron-builder": "^20.36.2"
+  },
+  "dependencies": {
+    "electron-is-dev": "^1.0.1",
+    "jquery": "^3.3.1",
+    "sortablejs": "^1.7.0",
+    "winreg": "^1.2.4"
+  },
+  "build": {
+    "appId": "searchApp",
+    "productName": "W-SEARCH",
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "./assets/imgs/qqq.ico"
+    }
+  }
+}

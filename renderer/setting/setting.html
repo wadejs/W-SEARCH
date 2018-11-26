@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>设置</title>
+    <link rel="stylesheet" href="./setting.css">
+  </head>
+  <body>
+    <h1>想搜什么可以自己改</h1>
+    <p class="tip">可按住“☰”按钮拖动排序(记得点击保存，兄嘚)</p>
+    <p class="tip">Alt + s 呼出搜索界面</p>
+     <ul class="search-list">
+     </ul>
+     <div class="auto-start">
+       开机启动<input type="checkbox" name="autoStart">
+     </div>
+     <div class="btn-group">
+       <button class="_add">添加规则</button>
+       <button class="_save">保存</button>
+     </div>
+    <script>
+      require('./setting.js')
+    </script>
+  </body>
+</html>
